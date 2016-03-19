@@ -75,7 +75,7 @@ SinglyLinkedList.prototype.print = function() {
   var current = this.head;
   while(current)
   {
-    string = current.data + '';
+    string += current.data + '';
     current = current.next;
   }
   return string.trim();
